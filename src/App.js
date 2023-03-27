@@ -23,6 +23,7 @@ function App() {
   return (
    <div className='App'>
    <div> 
+   <label for="input-id">Check The Wheather</label>
    <input
           onChange={(e) => setSearch(e.target.value)}
           type="text"
